@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/71ea4dcabc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a href="http://127.0.0.1:5500/index.html#"> <img class="cabecalho-imagem" src="imagens/logo.png" alt=""> </a>
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-item" href="#">Início</a>
+            <a class="cabecalho-item" href="#">Sobre</a>
+            <a class="cabecalho-item" href="#">Galeria</a>
+            <a class="cabecalho-item" href="#header2">Classes</a>
+            <a class="cabecalho-item" href="#">Contato</a>
+
+        </nav>
+
+        <div class="canto">
+
+            <div class="janela-login">
+                <button class="botaologin">
+                    <i class="fa-solid fa-circle-user fa-2x "></i>
+
+                    <p class="text-login"> Login </p>
+                </button>
+            </div>
+
+            <button class="botaojoin">
+                <i class="fa-solid fa-plus fa-1x"></i>
+                <p class="text-login"> FAÇA PARTE </p>
+            </button>
+
+        </div>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-escrito">
+                <h1 class="conteudo-titulo">MUDE SEU CORPO</h1>
+                <h2 class="conteudo-subtitulo">FIT & PERFECT</h2>
+                <a href="#header2"> <button class="conteudo-botao">VER CLASSES</button>
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#"> <i class="fa-brands fa-facebook fa-2x"></i> </a>
+        <a href="#"> <i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a href="#"> <i class="fa-brands fa-twitter fa-2x"></i></a>
+    </footer>
+
+
+    <div class="modal hidden">
+        <h1 class="titulo-login">Login</h1>
+        <input class="nome-senha" type="text" placeholder="Nome">
+        <br><br>
+        <input class="nome-senha" type="password" placeholder="Senha">
+        <br><br>
+        <button class="btn-enviar">Enviar</button>
+        <button class="close-btn">X</button>
+
+    </div>
+    <div class="overlay hidden"></div>
+
+    <div id="header2">
+
+        <article class="classes-lista">
+            <h2 class="tituloprincipal-classes">Escolha a sua Categoria<span class="cor1">!</span></h2>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        <img class="classe-li" src="/imagens/crossfit.png" alt="Crossfit" width="500" height="500">
+                        <h3 class="titulo-classes">Cross Fit</h3>
+                        <button class="botao-classe">R$ 499</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="classe-li" src="imagens/luta.png" alt="Luta" width="500" height="500">
+                        <h3 class="titulo-classes">Luta</h3>
+                        <button class="botao-classe">R$ 389</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="classe-li" src="/imagens/academia.png" alt="Academia" width="500" height="500">
+                        <h3 class="titulo-classes">Academia</h3>
+                        <button class="botao-classe">R$ 289</button>
+                    </a>
+                </li>
+            </ul>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
