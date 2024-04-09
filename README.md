@@ -5,6 +5,7 @@
 ## Sobre o projeto
 Gymate é um projeto de estudo em desenvolvimento, focado na criação de um site para promover a saúde e o condicionamento físico por meio de exercícios regulares.
 
+👉 Demonstração ao vivo: https://salazarleo.github.io/Gymate/
 ### Construida com:
 HTML <br>
 CSS  <br>
